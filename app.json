@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Pink Pill",
+    "owner": "hasnain87",
+    "slug": "pinky-pocket",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/pinky.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/pinky.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "bundleIdentifier": "com.pocketpinky.app",
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/pinky.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.pocketpinky.app",
+      "googleServicesFile": "./google-services.json",
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "WAKE_LOCK"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "81f578e5-64e4-4c95-9923-1fd6c10ac26d"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/81f578e5-64e4-4c95-9923-1fd6c10ac26d"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}

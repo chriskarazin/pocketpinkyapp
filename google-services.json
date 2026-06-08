@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "982065632785",
+    "project_id": "pinky-pocket",
+    "storage_bucket": "pinky-pocket.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982065632785:android:b4a9e67c189245be9183b0",
+        "android_client_info": {
+          "package_name": "com.pocketpinky.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnXnnfMnwcOt4I0iVSnIodXl_o4NHLs-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
